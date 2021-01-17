@@ -92,9 +92,7 @@ public class RecyclerViewAdapter extends RecyclerView.Adapter<RecyclerView.ViewH
     }
 
     private void populateItemRows(ItemViewHolder viewHolder, int position) {
-
         String item = mItemList.get(position);
         viewHolder.tvItem.setText(item);
-
     }
 }
